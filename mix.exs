@@ -29,7 +29,6 @@ defmodule SalonIris.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:nimble_csv, "~> 0.2.0"},
-     {:floki, "~> 0.18.0"},
-     {:monadex, git: "https://github.com/rob-brown/MonadEx.git", tag: "master"}]
+     {:floki, "~> 0.18.0"}]
   end
 end
